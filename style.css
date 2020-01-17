@@ -1,7 +1,8 @@
 .nav{
     padding: 5px;
-    background-color: silver;
+    background-color: darkblue;
 }
+
 
 .sticky {
     position: fixed;
@@ -11,6 +12,14 @@
 
   .gfont{
     font-family: 'Righteous', cursive;
+    color:white;
+    text-emphasis: bold;
+  }
+
+  .gfont2{
+    font-family: 'Righteous', cursive;
+    color:darkblue;
+    text-emphasis: bold;
   }
 
   .fakeline{
@@ -18,7 +27,7 @@
   }
 
   .movedown{
-      margin-top: 100px;
+      margin-top: 25px;
   }
 
   .dropstyle{
@@ -28,4 +37,9 @@
   .scrolltab{
     height:300px;
     overflow:scroll;
+}
+
+.picFrame{
+    border: white 1px solid;
+    border-radius: 20px;
 }
